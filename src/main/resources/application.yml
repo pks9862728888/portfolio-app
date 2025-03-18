@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: portfolio-app
+
+cors:
+  allowed-origins: https://portfolio-app-pran-15edd8076f9b.herokuapp.com/
