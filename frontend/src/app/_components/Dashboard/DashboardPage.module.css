@@ -1,0 +1,49 @@
+.mainDiv {
+  padding: 1rem;
+  display: flex;
+  width: 100%;
+}
+
+.dpWrapper, .aboutSection {
+  height: 400px;
+  background-color: var(--background-light);
+}
+
+.dpWrapper {
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid var(--border-highlight);
+  margin-right: 1rem;
+}
+
+.aboutSection {
+  width: 100%;
+  padding: 1rem;
+}
+
+.headingLine {
+  font-size: 4em;
+}
+
+.highlightName {
+  font-weight: bold;
+  color: #E39733FF;
+}
+
+.subHeading {
+  font-size: 2em;
+}
+
+.role {
+  font-weight: bold;
+}
+
+.connectIcon {
+  width: 30px;
+  cursor: pointer;
+}
+
+.gitIcon {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
