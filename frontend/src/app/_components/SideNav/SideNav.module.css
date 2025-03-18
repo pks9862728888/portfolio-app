@@ -1,0 +1,8 @@
+.sidenav {
+  width: 75px;
+  height: 100vh;
+  border: 1px solid var(--border-highlight);
+  padding: 1rem;
+  cursor: pointer;
+}
+
