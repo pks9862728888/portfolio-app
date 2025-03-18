@@ -5,13 +5,13 @@
 }
 
 .dpWrapper, .aboutSection {
-  height: 400px;
-  background-color: var(--background-light);
+  height: 350px;
+  border-radius: 10px;
 }
 
 .dpWrapper {
-  width: 400px;
-  border-radius: 5px;
+  width: 350px;
+  background-color: var(--background-light);
   border: 1px solid var(--border-highlight);
   margin-right: 1rem;
 }
@@ -19,6 +19,8 @@
 .aboutSection {
   width: 100%;
   padding: 1rem;
+  overflow: hidden;
+  background: linear-gradient(to right, #4D229EFF, rgba(239, 137, 21, 0.8));
 }
 
 .headingLine {
@@ -46,4 +48,35 @@
 .gitIcon {
   background-color: #ffffff;
   border-radius: 50%;
+}
+
+.dice, .sphere, .hexagon, .pill, .roundCube, .toroid {
+  float: right;
+}
+
+.dice {
+  transform: translateX(6em) translateY(-5em);
+}
+
+.sphere {
+  transform: translateX(2em) translateY(0.5em);
+}
+
+.hexagon {
+  transform: translateX(18em) translateY(-9em);
+}
+
+.pill {
+  position: relative;
+  transform: translateX(17em) translateY(-10em);
+}
+
+.roundCube {
+  position: relative;
+  transform: translateX(41em) translateY(-19em);
+}
+
+.toroid {
+  position: relative;
+  transform: translateX(37em) translateY(-20em);
 }
