@@ -1,0 +1,9 @@
+.sidenav {
+  width: 75px;
+  height: 100vh;
+  border-right: 1px solid var(--border-highlight);
+  background-color: #231150;
+  padding: 1rem;
+  cursor: pointer;
+}
+
